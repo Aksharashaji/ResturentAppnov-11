@@ -1,0 +1,81 @@
+
+
+
+                                Angular-front end technology
+
+                                -Basic commands
+
+                        1.to create project-ng new project-name
+
+                        2.to run project-ng serve/ng serve --open
+
+                        3.genarate componenet-ng g c componetn name
+
+                        4.genarate service-ng g s  service name
+
+
+
+                        -basic concepts
+
+                        1.Moduleimport libraries-Root Module-AppModule
+
+                        2.components-generate html,css,ts-Root components-AppComponent
+
+                        3.to set up path for component-AppRoutingModule
+                          syntax:{path:'pathname',component:component-name} inside Routes Arry
+
+                        4.Selectors -replace it withcorresponding component html page
+
+                        5.router-outlet selector is used to switch page to user request in root component html page
+
+                        6.Angular service-resuaable code can be stored.,and we can use it in all component across the application
+
+                        7.dependency injection-to share data b/w dependent classes(in constructors)
+
+                           syntax- access specifers variable name: dependent class name
+
+                        8.Asynchronous function call(rxjs libraries) observable
+                          -resolve (subscribe)
+                          -reject(catch)
+
+
+                       9.Data Binding-share data with a component
+                        
+                         9.1 one way binding-share only in one direction ata  time
+
+                            9.1.1 component(ts) to view(html) file
+
+                              9.1.1.1 String interpolation- syntax:{{class -property name}} in html
+                              9.1.1.2 property binding -syntax:[attribute]="class-property -name"
+
+                           9.1.2 view(html) to comppnent(ts file)
+                              9.1.2.1 Event binding -syntax: (Event-name)="function call()"
+                              9.1.2.2 Event binding using $event -syntax: (Event-name)="function call($event)"
+                        
+                        9.2 Two way binding
+                           
+                           9.2.1 ngModel-Import FormsModele ,[(ngModel)]="property-name"
+                        
+
+
+                      10 Angular directive-to manipulate DOM
+                        10.1  component directive
+                        10.2  strutural directive-based on condition or array length we add/remove html elememts from Dom
+                             10.2.1 *ngIf="condition" inside an html elements
+                             10.2.2 *ngFor ="let iterator of array -name"
+
+
+                        10.3 attribute directive -based on some value of class class property we can set the style of html elements
+
+                    11 A ctivated Route-provie the information about a route associatec with a component that is loaded in an outlet
+
+                    12 ngForm-to track the form values
+
+                    13. use pioes to transform strings ,currency amounts,dates,and other data for display
+                    14. BehavoirSubject-used which acts as a single store to hold updated shred data
+                    
+
+                    
+
+
+                        
